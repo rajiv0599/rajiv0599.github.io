@@ -1,0 +1,13 @@
+
+#products{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 4px;
+    
+}
+#inspection{
+    padding: 30px;
+    background-image: url('banner1.jpg');
+}
+
