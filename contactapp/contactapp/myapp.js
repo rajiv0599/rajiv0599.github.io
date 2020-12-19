@@ -70,10 +70,8 @@ document.addEventListener('DOMContentLoaded',ui.displayitems())
 document.querySelector('.form-group').addEventListener('submit',(e)=>{
     //add book to list
     e.preventDefault()
-    if(name === '' || number === '' ){
-        ui.showalert('please fill in all the required fields',"danger")
-    }
-    else{
+   
+    
     let input= document.querySelector('#input').value;
     let input_number= document.querySelector('#input-number').value;
     const record = new contact(input,input_number)
@@ -84,7 +82,7 @@ document.querySelector('.form-group').addEventListener('submit',(e)=>{
     
     
     ui.clearfields();
-    }
+    
 })
 document.querySelector('#list-group').addEventListener('click',(e)=>{
     let input= document.querySelector('#input').value;
