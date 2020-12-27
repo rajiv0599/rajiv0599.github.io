@@ -134,7 +134,7 @@ function timeinminutes(){
 }
 function timeinseconds(){
     document.querySelector('#weight-input').value ='';
-    document.querySelector('#weight-input').placeholder ='Enter the time in minutes';
+    document.querySelector('#weight-input').placeholder ='Enter the time in seconds';
     document.querySelector('#card1').textContent ='minutes OUTPUT:';
     document.querySelector('#card2').textContent ='hours OUTPUT:';
     document.querySelector('#card33').style.display = '';
